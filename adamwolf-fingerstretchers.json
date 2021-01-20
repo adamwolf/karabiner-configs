@@ -1,0 +1,149 @@
+{
+  "title": "Squash fingerstretchers",
+  "rules": [
+    {
+      "description": "Ignore non-ergonomic capital Y",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "y",
+            "modifiers": {
+              "mandatory": [
+                "right_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "out"
+            },
+            {
+              "shell_command": "osascript -e 'beep'"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Ignore non-ergonomic capital H",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "h",
+            "modifiers": {
+              "mandatory": [
+                "right_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "out"
+            },
+            {
+              "shell_command": "osascript -e 'beep'"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Ignore non-ergonomic capital N",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "n",
+            "modifiers": {
+              "mandatory": [
+                "right_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "out"
+            },
+            {
+              "shell_command": "osascript -e 'beep'"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Ignore non-ergonomic capital T",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "t",
+            "modifiers": {
+              "mandatory": [
+                "left_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "out"
+            },
+            {
+              "shell_command": "osascript -e 'beep'"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Ignore non-ergonomic capital G",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "g",
+            "modifiers": {
+              "mandatory": [
+                "left_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "out"
+            },
+            {
+              "shell_command": "osascript -e 'beep'"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Ignore non-ergonomic capital B",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "y",
+            "modifiers": {
+              "mandatory": [
+                "left_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "out"
+            },
+            {
+              "shell_command": "osascript -e 'beep'"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
