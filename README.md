@@ -8,6 +8,7 @@ Install Karabiner Elements.  Open Karabiner Elements.  It will create a director
 ## Configurations
 
 * adamwolf-fingerstretchers.json
+
   If you type a "fingerstretcher" (like capital Y with the right shift or a capital T with the left shift), beep instead of inserting the character.
   
 ## Feedback
