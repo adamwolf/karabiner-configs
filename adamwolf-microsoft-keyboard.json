@@ -1,0 +1,89 @@
+{
+  "title": "Use a Microsoft Keyboard on macOS",
+  "rules": [
+    {
+      "description": "Remap left \"Alt\" to left Command",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "left_option",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_command"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Remap left \"Windows\" to left Option (\"Alt\")",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "left_command",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_option"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Remap right \"Menu\" to right Option (\"Alt\")",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "application",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "right_option"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Remap right \"Alt\" to right Command",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "right_option",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "right_command"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
