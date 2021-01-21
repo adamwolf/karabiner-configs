@@ -126,7 +126,7 @@
       "manipulators": [
         {
           "from": {
-            "key_code": "y",
+            "key_code": "b",
             "modifiers": {
               "mandatory": [
                 "left_shift"
