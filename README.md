@@ -10,6 +10,10 @@ Install Karabiner Elements.  Open Karabiner Elements.  It will create a director
 * adamwolf-fingerstretchers.json
 
   If you type a "fingerstretcher" (like capital Y with the right shift or a capital T with the left shift), beep instead of inserting the character.
+
+* adamwolf-microsoft-keyboard.json
+
+  Makes "Microsoft" keyboards with Control/Windows/Alt/Space/Alt/Menu/Control into Control/Option/Command/Space/Command/Option/Control.  You probably only want this applied to certain devices, or your Apple keyboards will go wonky too! (I do not know how to expose locking this to certain devices via the UI, but you can do it with an editor.)
   
 ## Feedback
 
